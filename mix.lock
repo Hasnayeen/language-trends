@@ -1,0 +1,3 @@
+%{"connection": {:hex, :connection, "1.0.4", "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [:mix], [], "hexpm"},
+  "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], [], "hexpm"},
+  "rethinkdb": {:git, "https://github.com/hamiltop/rethinkdb-elixir.git", "3965bf71e465ff3db1feb8d6f54768dc58e3cc56", []}}
