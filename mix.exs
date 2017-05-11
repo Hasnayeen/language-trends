@@ -16,7 +16,8 @@ defmodule LanguageTrends.Mixfile do
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
     [mod: {LanguageTrends, []},
-      extra_applications: [:logger, :rethinkdb]]
+     applications: [:twittex],
+     extra_applications: [:logger]]
   end
 
   # Dependencies can be Hex packages:
@@ -30,7 +31,9 @@ defmodule LanguageTrends.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:rethinkdb, github: "hamiltop/rethinkdb-elixir"}
+      {:rethinkdb, github: "hamiltop/rethinkdb-elixir"},
+      {:twittex, github: "almightycouch/twittex"},
+      {:poison, "~> 2.0", override: true}
     ]
   end
 end

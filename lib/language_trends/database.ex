@@ -1,3 +1,3 @@
 defmodule LanguageTrends.Database do
-    use RethinkDB.Connection
+  use RethinkDB.Connection
 end
